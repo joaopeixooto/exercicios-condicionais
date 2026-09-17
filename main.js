@@ -1,19 +1,15 @@
 alert("Preencha as seguintes perguntas para se inscrever na maratona:")
-
 var idade = Number(prompt("Digite a sua idade: "))
 var atestado = 0
 var distancia = 0
 var minutos = 0
 var pace = 0
-
 if (idade >= 16 && idade < 60) {
     var atestado = prompt("Você tem atestado médico? responda sim ou não.")
     if (atestado == "sim" || atestado == "não") {
         var distancia = Number(prompt("Digite a distância desejada em Km: entre 5; 10; 21; 42"))
         var minutos = Number(prompt("Digite em quantos minutos faz a distância escolhida: "))
         var pace = minutos / distancia
-
-        console.log(pace)
         if (minutos > 0) {
             if (distancia == 5 || distancia == 10){
                 if (pace >= 5.75){
@@ -63,8 +59,6 @@ if (idade >= 16 && idade < 60) {
         var distancia = Number(prompt("Digite a distância desejada em Km: entre 5; 10; 21; 42"))
         var minutos = Number(prompt("Digite em quantos minutos faz a distância escolhida: "))
         var pace = minutos / distancia
-
-        console.log(pace)
         if (minutos > 0) {
             if (distancia == 5 || distancia == 10){
                 if (pace >= 5.75){
