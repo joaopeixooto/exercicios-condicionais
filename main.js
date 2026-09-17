@@ -96,7 +96,7 @@ if (idade >= 16 && idade < 60) {
                 alert("Reprovado na etapa 3, distância inválida.")
             }
         } else {
-            alert("Tempo inválido!")
+            alert("Tempo inválido.")
         }
     } else {
         alert("Você precisa de um atestado médico.")
